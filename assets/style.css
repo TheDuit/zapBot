@@ -1,0 +1,68 @@
+body{
+    background-color: #0B141A;
+    background-clip:content-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./fundo.png');
+    opacity: .1;
+    z-index: -1;
+}
+
+.container{
+    width: 50vw;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #202C33;
+    padding: 3rem;
+    border-radius: .2rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+input, textarea{
+    background-color: #2A3942;
+    outline: none;
+    border: none;
+    height: 2rem;
+    border-radius: .2rem;
+    padding: .5rem;
+    color: #fff;
+}
+
+h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+button{
+    background-color: #005C4B;
+    outline: none;
+    border: none;
+    height: 4rem;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: .2rem;
+    cursor: pointer;
+
+}

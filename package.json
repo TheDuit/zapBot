@@ -1,0 +1,16 @@
+{
+  "name": "zapbot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.35.2",
+    "express": "^4.21.2"
+  }
+}
